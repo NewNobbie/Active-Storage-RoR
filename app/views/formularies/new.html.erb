@@ -1,0 +1,21 @@
+<div class="mx-auto md:w-2/3 w-full">
+  <h1 class="font-bold text-4xl"><%= t('formularies.new.heading') %></h1>
+    
+  <%= form_with(model: @formulary, local: true) do |form| %>
+    <%= form.label :title, t('formularies.new.form.title') %>
+    <%= form.text_field :title %>
+
+    <%= form.label :description, t('formularies.new.form.description') %>
+    <%= form.text_area :description %>
+
+    <%= form.label :attachment, t('formularies.new.form.attachment') %>
+    <%= form.file_field :attachment %>
+
+    <%= form.submit t('formularies.new.form.submit')%>
+  <% end %>
+
+  
+
+  <%= link_to t('formularies.new.back_button'), formularies_path, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+
+</div>

@@ -1,0 +1,23 @@
+ru:
+  formularies:
+    index:
+      title: "Формуляры"
+      heading: "Формуляры"
+      new_button: "Новый формуляр"
+      show_button: "Показать этот формуляр"
+    show:
+      uploaded_file: "Загруженный файл"
+      no_file_uploaded: "Файл не загружен"
+      edit_button: "Редактировать этот формуляр"
+      back_button: "Назад к формулярам"
+      destroy_button: "Удалить этот формуляр"  
+    new:
+      heading: "Новый Формуляр"
+      form:
+        title: "Заголовок"
+        description: "Описание"
+        attachment: "Приложение"
+        submit: "Создать Формуляр"
+      back_button: "Назад к Формулярам"  
+
+      

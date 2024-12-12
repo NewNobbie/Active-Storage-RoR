@@ -1,0 +1,21 @@
+es:
+  formularies:
+    index:
+      title: "Formularios"
+      heading: "Formularios"
+      new_button: "Nuevo Formulario"
+      show_button: "Ver este Formulario"
+    show:
+      uploaded_file: "Archivo subido"
+      no_file_uploaded: "No se ha subido ningún archivo"
+      edit_button: "Editar este formulario"
+      back_button: "Volver a los formularios"
+      destroy_button: "Eliminar este formulario"  
+    new:
+      heading: "Nuevo Formulario"
+      form:
+        title: "Título"
+        description: "Descripción"
+        attachment: "Adjunto"
+        submit: "Crear Formulario"
+      back_button: "Volver a los Formularios"  

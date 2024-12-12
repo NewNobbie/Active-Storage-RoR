@@ -1,0 +1,21 @@
+ja:
+  formularies:
+    index:
+      title: "フォーム"
+      heading: "フォーム"
+      new_button: "新しいフォーム"
+      show_button: "このフォームを表示"
+    show:
+      uploaded_file: "アップロードされたファイル"
+      no_file_uploaded: "ファイルがアップロードされていません"
+      edit_button: "このフォームを編集する"
+      back_button: "フォーム一覧に戻る"
+      destroy_button: "このフォームを削除する"  
+    new:
+      heading: "新しいフォーム"
+      form:
+        title: "タイトル"
+        description: "説明"
+        attachment: "添付ファイル"
+        submit: "フォームを作成"
+      back_button: "フォーム一覧に戻る"  
