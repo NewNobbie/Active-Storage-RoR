@@ -1,4 +1,4 @@
 MiniMagick.configure do |config|
   config.cli = :imagemagick
-  config.debug = true
+  config.logger.level = Logger::DEBUG 
 end
