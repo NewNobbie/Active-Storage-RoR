@@ -18,4 +18,17 @@ es:
         description: "Descripción"
         attachment: "Adjunto"
         submit: "Crear Formulario"
-      back_button: "Volver a los Formularios"  
+      back_button: "Volver a los Formularios"
+    form:
+      error: "error"
+      prohibited_message: "impidieron que este formulario se guardara:"
+      fields:
+        title: "Título"
+        description: "Descripción"
+      submit_button: "Guardar Formulario"    
+    notices:
+      created: "El formulario se creó con éxito."
+      updated: "El formulario se actualizó con éxito."
+      destroyed: "El formulario se eliminó con éxito."  
+    errors:
+      file_too_large: "El archivo subido debe tener menos de 3 MB."  

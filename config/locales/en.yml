@@ -19,3 +19,16 @@ en:
         attachment: "Attachment"
         submit: "Create Formulary"
       back_button: "Back to Formularies"  
+    form:
+      error: "error"
+      prohibited_message: "prohibited this formulary from being saved:"
+      fields:
+        title: "Title"
+        description: "Description"
+      submit_button: "Save Formulary"  
+    notices:
+      created: "Formulary was successfully created."
+      updated: "Formulary was successfully updated."
+      destroyed: "Formulary was successfully destroyed."  
+    errors:
+      file_too_large: "The uploaded file must be less than 3MB."  

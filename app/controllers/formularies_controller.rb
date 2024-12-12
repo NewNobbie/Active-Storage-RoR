@@ -25,7 +25,7 @@ class FormulariesController < ApplicationController
 
     respond_to do |format|
       if @formulary.save
-        format.html { redirect_to @formulary, notice: "Formulary was successfully created." }
+        format.html { redirect_to @formulary, notice: t('formularies.notices.created') }
         format.json { render :show, status: :created, location: @formulary }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -38,7 +38,7 @@ class FormulariesController < ApplicationController
   def update
     respond_to do |format|
       if @formulary.update(formulary_params)
-        format.html { redirect_to @formulary, notice: "Formulary was successfully updated." }
+        format.html { redirect_to @formulary, notice: t('formularies.notices.updated') }
         format.json { render :show, status: :ok, location: @formulary }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -52,7 +52,7 @@ class FormulariesController < ApplicationController
     @formulary.destroy!
 
     respond_to do |format|
-      format.html { redirect_to formularies_path, status: :see_other, notice: "Formulary was successfully destroyed." }
+      format.html { redirect_to formularies_path, status: :see_other, notice: t('formularies.notices.destroyed') }
       format.json { head :no_content }
     end
   end

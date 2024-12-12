@@ -19,3 +19,16 @@ ja:
         attachment: "添付ファイル"
         submit: "フォームを作成"
       back_button: "フォーム一覧に戻る"  
+    form:
+      error: "エラー"
+      prohibited_message: "このフォームの保存を妨げました:"
+      fields:
+        title: "タイトル"
+        description: "説明"
+      submit_button: "フォームを保存"  
+    notices:
+      created: "フォームが正常に作成されました。"
+      updated: "フォームが正常に更新されました。"
+      destroyed: "フォームが正常に削除されました。"  
+    errors:
+      file_too_large: "アップロードされたファイルは3MB未満である必要があります。"  

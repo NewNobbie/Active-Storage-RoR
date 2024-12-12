@@ -19,5 +19,17 @@ ru:
         attachment: "Приложение"
         submit: "Создать Формуляр"
       back_button: "Назад к Формулярам"  
-
+    form:
+      error: "ошибка"
+      prohibited_message: "не позволили сохранить этот формуляр:"
+      fields:
+        title: "Заголовок"
+        description: "Описание"
+      submit_button: "Сохранить Формуляр"  
+    notices:
+      created: "Формуляр успешно создан."
+      updated: "Формуляр успешно обновлен."
+      destroyed: "Формуляр успешно удален."
+    errors:
+      file_too_large: "Загруженный файл должен быть меньше 3 МБ."    
       
