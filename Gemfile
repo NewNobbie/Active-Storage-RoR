@@ -36,7 +36,7 @@ gem "bootsnap", require: false
 # assets img cloud
 gem 'cloudinary', '~> 2.2'
 
-gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.14"
 
 gem 'mini_magick'
 
